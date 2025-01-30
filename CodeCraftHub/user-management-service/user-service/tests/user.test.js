@@ -36,7 +36,6 @@ describe('User Service', () => {
                 email: 'test@example.com',
                 password: 'password123',
             });
-
         const response = await request(app)
             .post('/api/users/login')
             .send({
